@@ -1,6 +1,6 @@
 /*For the first page*/
 
-#firstpage{
+body{
     background-color: #443f48;
     text-align: center;
 }
@@ -22,7 +22,6 @@
 #list {
     margin: 50px auto;
     width: fit-content;
-    border: 3px solid #e02a2a;
     padding: 14px 50px;
     border-radius: 20px;
     text-decoration: none;
@@ -32,25 +31,11 @@
 }
 
 #secondpagebtn {
-    text-decoration: none;
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #e02a2a;
     padding: 14px 50px;
-    border-radius: 6px;
-    text-decoration: none;
     color: #000000;
-    transition: background 0.5s;
-}
-
-#secondpagebtn:hover {
-    background:#e02a2a;
 }
 
 /*For the second page*/
-
-
-#bee {
-    display: flex;
-}
